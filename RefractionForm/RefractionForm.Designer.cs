@@ -60,7 +60,7 @@
             this.panel1.Controls.Add(this.cmbMaterial);
             this.panel1.Location = new System.Drawing.Point(3, 81);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(994, 716);
+            this.panel1.Size = new System.Drawing.Size(994, 606);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
@@ -71,7 +71,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(544, 623);
+            this.label2.Location = new System.Drawing.Point(534, 530);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(420, 18);
             this.label2.TabIndex = 4;
@@ -82,7 +82,7 @@
             this.btnMaterial.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnMaterial.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMaterial.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnMaterial.Location = new System.Drawing.Point(523, 204);
+            this.btnMaterial.Location = new System.Drawing.Point(537, 116);
             this.btnMaterial.Name = "btnMaterial";
             this.btnMaterial.Size = new System.Drawing.Size(132, 48);
             this.btnMaterial.TabIndex = 3;
@@ -94,7 +94,7 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.lblResult.Location = new System.Drawing.Point(582, 167);
+            this.lblResult.Location = new System.Drawing.Point(596, 79);
             this.lblResult.Name = "lblResult";
             this.lblResult.Size = new System.Drawing.Size(62, 18);
             this.lblResult.TabIndex = 2;
@@ -104,7 +104,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(520, 167);
+            this.label1.Location = new System.Drawing.Point(534, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(60, 18);
             this.label1.TabIndex = 1;
@@ -123,7 +123,7 @@
             "유리",
             "사파이어",
             "다이아몬드"});
-            this.cmbMaterial.Location = new System.Drawing.Point(523, 119);
+            this.cmbMaterial.Location = new System.Drawing.Point(537, 34);
             this.cmbMaterial.Name = "cmbMaterial";
             this.cmbMaterial.Size = new System.Drawing.Size(121, 23);
             this.cmbMaterial.TabIndex = 0;
@@ -136,7 +136,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnBack);
             this.Name = "RefractionForm";
-            this.Size = new System.Drawing.Size(1000, 1000);
+            this.Size = new System.Drawing.Size(1000, 700);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

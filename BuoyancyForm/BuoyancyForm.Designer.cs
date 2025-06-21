@@ -50,7 +50,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnBack);
             this.Name = "BuoyancyForm";
-            this.Size = new System.Drawing.Size(800, 800);
+            this.Size = new System.Drawing.Size(1000, 700);
             this.ResumeLayout(false);
 
         }

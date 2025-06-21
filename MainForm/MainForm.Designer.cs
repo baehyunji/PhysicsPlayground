@@ -37,13 +37,10 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Stencil", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label1.Location = new System.Drawing.Point(181, 161);
+            this.label1.Location = new System.Drawing.Point(283, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(464, 71);
             this.label1.TabIndex = 0;
@@ -51,13 +48,10 @@
             // 
             // btnBuoyancy
             // 
-            this.btnBuoyancy.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBuoyancy.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnBuoyancy.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuoyancy.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnBuoyancy.Location = new System.Drawing.Point(259, 255);
+            this.btnBuoyancy.Location = new System.Drawing.Point(352, 203);
             this.btnBuoyancy.Name = "btnBuoyancy";
             this.btnBuoyancy.Size = new System.Drawing.Size(260, 77);
             this.btnBuoyancy.TabIndex = 1;
@@ -68,13 +62,10 @@
             // 
             // btnPendulum
             // 
-            this.btnPendulum.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnPendulum.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnPendulum.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPendulum.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnPendulum.Location = new System.Drawing.Point(261, 338);
+            this.btnPendulum.Location = new System.Drawing.Point(354, 286);
             this.btnPendulum.Name = "btnPendulum";
             this.btnPendulum.Size = new System.Drawing.Size(260, 77);
             this.btnPendulum.TabIndex = 2;
@@ -85,13 +76,10 @@
             // 
             // btnRefraction
             // 
-            this.btnRefraction.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRefraction.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnRefraction.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefraction.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnRefraction.Location = new System.Drawing.Point(261, 421);
+            this.btnRefraction.Location = new System.Drawing.Point(354, 369);
             this.btnRefraction.Name = "btnRefraction";
             this.btnRefraction.Size = new System.Drawing.Size(260, 77);
             this.btnRefraction.TabIndex = 3;
@@ -102,13 +90,10 @@
             // 
             // btnCircuit
             // 
-            this.btnCircuit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCircuit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnCircuit.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCircuit.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnCircuit.Location = new System.Drawing.Point(261, 504);
+            this.btnCircuit.Location = new System.Drawing.Point(354, 452);
             this.btnCircuit.Name = "btnCircuit";
             this.btnCircuit.Size = new System.Drawing.Size(260, 77);
             this.btnCircuit.TabIndex = 4;
@@ -122,7 +107,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(782, 753);
+            this.ClientSize = new System.Drawing.Size(982, 653);
             this.Controls.Add(this.btnCircuit);
             this.Controls.Add(this.btnRefraction);
             this.Controls.Add(this.btnPendulum);
