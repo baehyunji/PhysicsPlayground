@@ -52,12 +52,23 @@
     <Compile Include="BuoyancyForm\BuoyancyForm.Designer.cs">
       <DependentUpon>BuoyancyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CircuitForm\BulbComponent.cs" />
+    <Compile Include="CircuitForm\CircuitAnalyzer.cs" />
+    <Compile Include="CircuitForm\CircuitCanvas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CircuitForm\CircuitComponent.cs" />
     <Compile Include="CircuitForm\CircuitForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CircuitForm\CircuitForm.Designer.cs">
       <DependentUpon>CircuitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CircuitForm\ResistorComponent.cs" />
+    <Compile Include="CircuitForm\SliderResistorComponent.cs" />
+    <Compile Include="CircuitForm\SwitchComponent.cs" />
+    <Compile Include="CircuitForm\VoltageSourceComponent.cs" />
+    <Compile Include="CircuitForm\Wire.cs" />
     <Compile Include="MainForm\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
