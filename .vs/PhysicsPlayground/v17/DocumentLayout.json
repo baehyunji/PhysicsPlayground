@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\pendulumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:pendulumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\buoyancyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:buoyancyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\buoyancyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:buoyancyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\circuitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:circuitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\refractionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:refractionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\circuitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:circuitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\refractionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:refractionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\pendulumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:pendulumform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\pendulumform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:pendulumform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|c:\\users\\w\\source\\repos\\physicsplayground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{423CC3C7-4128-4D34-BCF8-DD34349189A3}|PhysicsPlayground.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CircuitForm.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\CircuitForm.cs",
+              "RelativeDocumentMoniker": "CircuitForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\CircuitForm.cs",
+              "RelativeToolTip": "CircuitForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:21:04.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PendulumForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.cs",
+              "RelativeDocumentMoniker": "PendulumForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PendulumForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:43:09.085Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefractionForm.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\RefractionForm.cs",
+              "RelativeDocumentMoniker": "RefractionForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\RefractionForm.cs",
+              "RelativeToolTip": "RefractionForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:54:27.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuoyancyForm.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\BuoyancyForm.cs",
+              "RelativeDocumentMoniker": "BuoyancyForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\BuoyancyForm.cs",
+              "RelativeToolTip": "BuoyancyForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:21:15.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PendulumForm.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.cs",
+              "RelativeDocumentMoniker": "PendulumForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.cs",
+              "RelativeToolTip": "PendulumForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:20:10.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CircuitForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\CircuitForm.cs",
+              "RelativeDocumentMoniker": "CircuitForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\CircuitForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "CircuitForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:58:30.11Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuoyancyForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\BuoyancyForm.cs",
+              "RelativeDocumentMoniker": "BuoyancyForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\BuoyancyForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "BuoyancyForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:58:41.889Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefractionForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\RefractionForm.cs",
+              "RelativeDocumentMoniker": "RefractionForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\RefractionForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "RefractionForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:58:11.685Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:10:47.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PendulumForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.Designer.cs",
+              "RelativeDocumentMoniker": "PendulumForm.Designer.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\PendulumForm.Designer.cs",
+              "RelativeToolTip": "PendulumForm.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:50:15.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "MainForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:02:35.182Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:15:02.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\w\\source\\repos\\PhysicsPlayground\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:06:13.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
