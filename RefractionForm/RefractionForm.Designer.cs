@@ -29,6 +29,13 @@
         private void InitializeComponent()
         {
             this.btnBack = new System.Windows.Forms.Button();
+            this.panel1 = new PhysicsPlayground.DoubleBufferedPanel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnMaterial = new System.Windows.Forms.Button();
+            this.lblResult = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmbMaterial = new System.Windows.Forms.ComboBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnBack
@@ -44,13 +51,94 @@
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btnMaterial);
+            this.panel1.Controls.Add(this.lblResult);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.cmbMaterial);
+            this.panel1.Location = new System.Drawing.Point(3, 81);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(994, 606);
+            this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(534, 530);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(420, 18);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "빨간색: 굴절선, 파란색: 입사선, 초록색: 반사선";
+            // 
+            // btnMaterial
+            // 
+            this.btnMaterial.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnMaterial.Font = new System.Drawing.Font("Stencil", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaterial.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.btnMaterial.Location = new System.Drawing.Point(537, 116);
+            this.btnMaterial.Name = "btnMaterial";
+            this.btnMaterial.Size = new System.Drawing.Size(132, 48);
+            this.btnMaterial.TabIndex = 3;
+            this.btnMaterial.Text = "매질";
+            this.btnMaterial.UseVisualStyleBackColor = false;
+            this.btnMaterial.Click += new System.EventHandler(this.btnMaterial_Click);
+            // 
+            // lblResult
+            // 
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lblResult.Location = new System.Drawing.Point(596, 79);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(62, 18);
+            this.lblResult.TabIndex = 2;
+            this.lblResult.Text = "결과값";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("굴림", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(534, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "결과: ";
+            // 
+            // cmbMaterial
+            // 
+            this.cmbMaterial.FormattingEnabled = true;
+            this.cmbMaterial.Items.AddRange(new object[] {
+            "진공",
+            "공기",
+            "물(20℃)",
+            "설탕물(30%)",
+            "설탕물(80%)",
+            "얼음",
+            "유리",
+            "사파이어",
+            "다이아몬드"});
+            this.cmbMaterial.Location = new System.Drawing.Point(537, 34);
+            this.cmbMaterial.Name = "cmbMaterial";
+            this.cmbMaterial.Size = new System.Drawing.Size(121, 23);
+            this.cmbMaterial.TabIndex = 0;
+            this.cmbMaterial.SelectedIndexChanged += new System.EventHandler(this.cmbMaterial_SelectedIndexChanged);
+            // 
             // RefractionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnBack);
             this.Name = "RefractionForm";
-            this.Size = new System.Drawing.Size(800, 800);
+            this.Size = new System.Drawing.Size(1000, 700);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -58,5 +146,11 @@
         #endregion
 
         private System.Windows.Forms.Button btnBack;
+        private PhysicsPlayground.DoubleBufferedPanel panel1;
+        private System.Windows.Forms.ComboBox cmbMaterial;
+        private System.Windows.Forms.Button btnMaterial;
+        private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
