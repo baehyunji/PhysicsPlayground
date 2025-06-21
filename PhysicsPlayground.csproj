@@ -46,48 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuoyancyForm.cs">
+    <Compile Include="BuoyancyForm\BuoyancyForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BuoyancyForm.Designer.cs">
+    <Compile Include="BuoyancyForm\BuoyancyForm.Designer.cs">
       <DependentUpon>BuoyancyForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CircuitForm.cs">
+    <Compile Include="CircuitForm\CircuitForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="CircuitForm.Designer.cs">
+    <Compile Include="CircuitForm\CircuitForm.Designer.cs">
       <DependentUpon>CircuitForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="MainForm\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="MainForm\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PendulumForm.cs">
+    <Compile Include="PendulumForm\PendulumForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PendulumForm.Designer.cs">
+    <Compile Include="PendulumForm\PendulumForm.Designer.cs">
       <DependentUpon>PendulumForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RefractionForm.cs">
+    <Compile Include="RefractionForm\RefractionForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="RefractionForm.Designer.cs">
+    <Compile Include="RefractionForm\RefractionForm.Designer.cs">
       <DependentUpon>RefractionForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BuoyancyForm.resx">
+    <EmbeddedResource Include="BuoyancyForm\BuoyancyForm.resx">
       <DependentUpon>BuoyancyForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CircuitForm.resx">
+    <EmbeddedResource Include="CircuitForm\CircuitForm.resx">
       <DependentUpon>CircuitForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="MainForm\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PendulumForm.resx">
+    <EmbeddedResource Include="PendulumForm\PendulumForm.resx">
       <DependentUpon>PendulumForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -99,7 +99,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RefractionForm.resx">
+    <EmbeddedResource Include="RefractionForm\RefractionForm.resx">
       <DependentUpon>RefractionForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
