@@ -45,10 +45,10 @@
             this.btnBack.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnBack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnBack.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnBack.Location = new System.Drawing.Point(23, 21);
+            this.btnBack.Location = new System.Drawing.Point(26, 26);
             this.btnBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(106, 39);
+            this.btnBack.Size = new System.Drawing.Size(121, 49);
             this.btnBack.TabIndex = 0;
             this.btnBack.Text = "<- 뒤로가기";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -56,19 +56,21 @@
             // 
             // timeRestart
             // 
-            this.timeRestart.Location = new System.Drawing.Point(695, 21);
+            this.timeRestart.Location = new System.Drawing.Point(794, 26);
+            this.timeRestart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.timeRestart.Name = "timeRestart";
-            this.timeRestart.Size = new System.Drawing.Size(75, 23);
+            this.timeRestart.Size = new System.Drawing.Size(95, 29);
             this.timeRestart.TabIndex = 3;
-            this.timeRestart.Text = "재시작";
+            this.timeRestart.Text = "이어서시작";
             this.timeRestart.UseVisualStyleBackColor = true;
             this.timeRestart.Click += new System.EventHandler(this.timeRestart_Click);
             // 
             // timeStop
             // 
-            this.timeStop.Location = new System.Drawing.Point(695, 58);
+            this.timeStop.Location = new System.Drawing.Point(794, 72);
+            this.timeStop.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.timeStop.Name = "timeStop";
-            this.timeStop.Size = new System.Drawing.Size(75, 23);
+            this.timeStop.Size = new System.Drawing.Size(95, 29);
             this.timeStop.TabIndex = 4;
             this.timeStop.Text = "일시정지";
             this.timeStop.UseVisualStyleBackColor = true;
@@ -82,27 +84,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(693, 104);
+            this.label1.Location = new System.Drawing.Point(792, 130);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 24);
+            this.label1.Size = new System.Drawing.Size(147, 30);
             this.label1.TabIndex = 5;
             this.label1.Text = "나무상자를 클릭하여\r\n조종 할 수 있습니다.\r\n";
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 256);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 320);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(875, 305);
+            this.pictureBox2.Size = new System.Drawing.Size(1000, 381);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PhysicsPlayground.Properties.Resources.New_Piskel__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(305, 161);
+            this.pictureBox1.Location = new System.Drawing.Point(349, 201);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(92, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 111);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -111,7 +115,7 @@
             // 
             // BuoyancyForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.timeStop);
@@ -121,7 +125,7 @@
             this.Controls.Add(this.btnBack);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BuoyancyForm";
-            this.Size = new System.Drawing.Size(875, 561);
+            this.Size = new System.Drawing.Size(1000, 701);
             this.Load += new System.EventHandler(this.BuoyancyForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
