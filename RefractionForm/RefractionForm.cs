@@ -28,17 +28,19 @@ namespace PhysicsPlayground
         };
         private bool isDragging = false;
         private Point incidentEnd;
-        private string selectedMaterial = "공기";
+        private string selectedMaterial = "진공";
 
         public RefractionForm()
         {
             InitializeComponent();
 
-            cmbMaterial.SelectedIndex = 1;
+            cmbMaterial.SelectedIndex = 0;
             cmbMaterial.DropDownStyle = ComboBoxStyle.DropDownList;
 
             incidentEnd = new Point(panel1.Width / 2 - 100, panel1.Height / 2 - 100);
 
+            label2.Parent = panel1;
+            label2.BackColor = Color.Transparent;
         }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
@@ -66,7 +68,6 @@ namespace PhysicsPlayground
         private void cmbMaterial_SelectedIndexChanged(object sender, EventArgs e)
         {
             selectedMaterial = cmbMaterial.SelectedItem.ToString();
-            showMaterial = true;
             panel1.Invalidate();
         }
 
@@ -125,7 +126,7 @@ namespace PhysicsPlayground
             int radius = 40;
             int sweepAngle = (int)angleDeg;
 
-            if (sinTheta2 > 1.0)
+            if (isTotalInternalReflection)
             {
                 lblResult.Text = $"전반사 발생 (입사각: {angleDeg:F1}°, 반사각: {angleDeg:F1}°)";
                 double reflectAngle = theta1;
@@ -134,6 +135,8 @@ namespace PhysicsPlayground
             }
             else
             {
+                sinTheta2 = Math.Max(-1.0, Math.Min(1.0, sinTheta2));
+
                 double theta2 = Math.Asin(sinTheta2);
                 double angle2Deg = theta2 * 180 / Math.PI;
                 lblResult.Text = $"입사각: {angleDeg:F1}°, 반사각: {angleDeg:F1}°, 굴절각: {angle2Deg:F1}°";
