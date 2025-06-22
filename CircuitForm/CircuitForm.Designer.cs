@@ -45,10 +45,10 @@
             this.btnBack.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnBack.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btnBack.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnBack.Location = new System.Drawing.Point(20, 21);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBack.Location = new System.Drawing.Point(27, 26);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(91, 39);
+            this.btnBack.Size = new System.Drawing.Size(121, 49);
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "<- 뒤로가기";
             this.btnBack.UseVisualStyleBackColor = false;
@@ -56,10 +56,11 @@
             // 
             // addResistorButton
             // 
-            this.addResistorButton.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.addResistorButton.Location = new System.Drawing.Point(20, 81);
+            this.addResistorButton.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.addResistorButton.Location = new System.Drawing.Point(27, 101);
+            this.addResistorButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addResistorButton.Name = "addResistorButton";
-            this.addResistorButton.Size = new System.Drawing.Size(127, 45);
+            this.addResistorButton.Size = new System.Drawing.Size(131, 56);
             this.addResistorButton.TabIndex = 2;
             this.addResistorButton.Text = "전압기";
             this.addResistorButton.UseVisualStyleBackColor = true;
@@ -67,10 +68,11 @@
             // 
             // addVoltageButton
             // 
-            this.addVoltageButton.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.addVoltageButton.Location = new System.Drawing.Point(20, 149);
+            this.addVoltageButton.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.addVoltageButton.Location = new System.Drawing.Point(27, 186);
+            this.addVoltageButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addVoltageButton.Name = "addVoltageButton";
-            this.addVoltageButton.Size = new System.Drawing.Size(127, 45);
+            this.addVoltageButton.Size = new System.Drawing.Size(131, 56);
             this.addVoltageButton.TabIndex = 3;
             this.addVoltageButton.Text = "전원";
             this.addVoltageButton.UseVisualStyleBackColor = true;
@@ -78,10 +80,11 @@
             // 
             // sliderButton
             // 
-            this.sliderButton.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.sliderButton.Location = new System.Drawing.Point(20, 284);
+            this.sliderButton.Font = new System.Drawing.Font("SimSun", 13F, System.Drawing.FontStyle.Bold);
+            this.sliderButton.Location = new System.Drawing.Point(27, 355);
+            this.sliderButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sliderButton.Name = "sliderButton";
-            this.sliderButton.Size = new System.Drawing.Size(127, 41);
+            this.sliderButton.Size = new System.Drawing.Size(131, 51);
             this.sliderButton.TabIndex = 4;
             this.sliderButton.Text = "미끄럽 가저항";
             this.sliderButton.UseVisualStyleBackColor = true;
@@ -89,10 +92,11 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.Location = new System.Drawing.Point(20, 344);
+            this.button5.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button5.Location = new System.Drawing.Point(27, 430);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(127, 39);
+            this.button5.Size = new System.Drawing.Size(131, 49);
             this.button5.TabIndex = 5;
             this.button5.Text = "스위치";
             this.button5.UseVisualStyleBackColor = true;
@@ -101,19 +105,21 @@
             // statusLabel
             // 
             this.statusLabel.AutoSize = true;
-            this.statusLabel.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.statusLabel.Location = new System.Drawing.Point(185, 21);
+            this.statusLabel.Font = new System.Drawing.Font("SimSun", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.statusLabel.Location = new System.Drawing.Point(212, 35);
+            this.statusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(19, 19);
+            this.statusLabel.Size = new System.Drawing.Size(22, 24);
             this.statusLabel.TabIndex = 6;
             this.statusLabel.Text = "0";
             // 
             // bulbButton
             // 
-            this.bulbButton.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.bulbButton.Location = new System.Drawing.Point(20, 222);
+            this.bulbButton.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bulbButton.Location = new System.Drawing.Point(27, 278);
+            this.bulbButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bulbButton.Name = "bulbButton";
-            this.bulbButton.Size = new System.Drawing.Size(127, 41);
+            this.bulbButton.Size = new System.Drawing.Size(131, 51);
             this.bulbButton.TabIndex = 7;
             this.bulbButton.Text = "전구";
             this.bulbButton.UseVisualStyleBackColor = true;
@@ -121,10 +127,11 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.Location = new System.Drawing.Point(20, 455);
+            this.button6.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.Location = new System.Drawing.Point(27, 569);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(127, 46);
+            this.button6.Size = new System.Drawing.Size(131, 58);
             this.button6.TabIndex = 8;
             this.button6.Text = "재우기";
             this.button6.UseVisualStyleBackColor = true;
@@ -138,7 +145,7 @@
             // 
             // CircuitForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.button6);
@@ -149,9 +156,9 @@
             this.Controls.Add(this.addVoltageButton);
             this.Controls.Add(this.addResistorButton);
             this.Controls.Add(this.btnBack);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "CircuitForm";
-            this.Size = new System.Drawing.Size(820, 641);
+            this.Size = new System.Drawing.Size(1093, 801);
             this.Click += new System.EventHandler(this.sliderButton_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
