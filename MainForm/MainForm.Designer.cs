@@ -48,12 +48,13 @@
             // 
             // btnBuoyancy
             // 
+            this.btnBuoyancy.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnBuoyancy.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnBuoyancy.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuoyancy.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnBuoyancy.Location = new System.Drawing.Point(352, 203);
+            this.btnBuoyancy.Location = new System.Drawing.Point(367, 206);
             this.btnBuoyancy.Name = "btnBuoyancy";
-            this.btnBuoyancy.Size = new System.Drawing.Size(260, 77);
+            this.btnBuoyancy.Size = new System.Drawing.Size(241, 63);
             this.btnBuoyancy.TabIndex = 1;
             this.btnBuoyancy.TabStop = false;
             this.btnBuoyancy.Text = "부력";
@@ -62,12 +63,13 @@
             // 
             // btnPendulum
             // 
+            this.btnPendulum.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnPendulum.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnPendulum.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPendulum.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnPendulum.Location = new System.Drawing.Point(354, 286);
+            this.btnPendulum.Location = new System.Drawing.Point(369, 289);
             this.btnPendulum.Name = "btnPendulum";
-            this.btnPendulum.Size = new System.Drawing.Size(260, 77);
+            this.btnPendulum.Size = new System.Drawing.Size(241, 63);
             this.btnPendulum.TabIndex = 2;
             this.btnPendulum.TabStop = false;
             this.btnPendulum.Text = "단진자운동";
@@ -76,12 +78,13 @@
             // 
             // btnRefraction
             // 
+            this.btnRefraction.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRefraction.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnRefraction.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRefraction.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnRefraction.Location = new System.Drawing.Point(354, 369);
+            this.btnRefraction.Location = new System.Drawing.Point(369, 372);
             this.btnRefraction.Name = "btnRefraction";
-            this.btnRefraction.Size = new System.Drawing.Size(260, 77);
+            this.btnRefraction.Size = new System.Drawing.Size(241, 63);
             this.btnRefraction.TabIndex = 3;
             this.btnRefraction.TabStop = false;
             this.btnRefraction.Text = "빛의굴절";
@@ -90,12 +93,13 @@
             // 
             // btnCircuit
             // 
+            this.btnCircuit.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCircuit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnCircuit.Font = new System.Drawing.Font("Stencil", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCircuit.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnCircuit.Location = new System.Drawing.Point(354, 452);
+            this.btnCircuit.Location = new System.Drawing.Point(369, 455);
             this.btnCircuit.Name = "btnCircuit";
-            this.btnCircuit.Size = new System.Drawing.Size(260, 77);
+            this.btnCircuit.Size = new System.Drawing.Size(241, 63);
             this.btnCircuit.TabIndex = 4;
             this.btnCircuit.TabStop = false;
             this.btnCircuit.Text = "전기회로";

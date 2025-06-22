@@ -89,7 +89,7 @@ namespace PhysicsPlayground
             else
             {
                 Rectangle lowerMedium = new Rectangle(0, cy, panel1.Width, panel1.Height - cy);
-                g.FillRectangle(new SolidBrush(Color.FromArgb(230, 230, 230)), lowerMedium);
+                g.FillRectangle( Brushes.White, lowerMedium);
             }
 
             Pen normalPen = new Pen(Color.Gray, 1) { DashStyle = System.Drawing.Drawing2D.DashStyle.Dash };
